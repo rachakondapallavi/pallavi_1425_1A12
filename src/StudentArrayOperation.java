@@ -24,16 +24,19 @@ public interface StudentArrayOperation {
 	 * @throws IllegalArgumentException
 	 */
 	void setStudents(Student[] students);
-	
-
+	{
+           
 	/**
 	 * if index lower than 0 or index higher/equal students.length method should
 	 * throw IllegalArgumentException
 	 *
 	 * @param index
 	 */
+	}
+	
 	Student getStudent(int index);
-
+	{
+		
 	
 	/**
 	 * Replaces the element at the specified position in this array with the
